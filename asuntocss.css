@@ -1,0 +1,129 @@
+header, nav, .main, footer{
+    width: 95%;
+    max-width: 100 px;
+    margin: 10px auto;
+}
+
+body {
+    background-image :url(imagenes/imprub3.png)
+    background-size cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+    
+}
+
+nav{
+    color:rgb(6, 6, 7);
+    background: rgb(12, 11, 11);
+    overflow: hidden;
+    margin: 10px auto;
+    -moz-border-radius: 20px/10px ; 
+    -webkit-border-radius:20px/10px ;
+    border-radius:20px/10px ;
+
+    -moz-box-shadow:  rgb(150,150, 150) 5px, 5px;
+    -box-shadow: rgb(150,150, 150) 5px, 5px;
+    box-shadow:  rgb(150,150, 150) 5px, 5px;
+}
+
+nav ul{
+    list-style: none;
+
+    -moz-border-radius: 20px/10px ; 
+    -webkit-border-radius:20px/10px ;
+    border-radius:20px/10px ;
+
+    -moz-box-shadow:  rgb(150,150, 150) 5px, 5px;
+    -box-shadow: rgb(150,150, 150) 5px, 5px;
+    box-shadow:  rgb(150,150, 150) 5px, 5px;
+
+}
+nav ul li{
+    float: left;
+    padding: 10px 20px;
+
+    -moz-border-radius: 20px/10px ; 
+    -webkit-border-radius:20px/10px ;
+    border-radius:20px/10px ;
+
+    -moz-box-shadow:  rgb(150,150, 150) 5px, 5px;
+    -box-shadow: rgb(150,150, 150) 5px, 5px;
+    box-shadow:  rgb(150,150, 150) 5px, 5px;
+}
+nav ul li a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+
+    -moz-border-radius: 20px/10px ; 
+    -webkit-border-radius:20px/10px ;
+    border-radius:20px/10px ;
+
+    -moz-box-shadow:  rgb(150,150, 150) 5px, 5px;
+    -box-shadow: rgb(150,150, 150) 5px, 5px;
+    box-shadow:  rgb(150,150, 150) 5px, 5px;
+}
+.main .articles{
+    width: 60%;
+    margin-right: 1.5%;
+    background: rgb(92, 92, 95);
+    float:left;
+    -moz-border-radius: 20px/10px ; 
+    -webkit-border-radius:20px/10px ;
+    border-radius:20px/10px ;
+
+    -moz-box-shadow:  rgb(150,150, 150) 5px, 5px;
+    -box-shadow: rgb(150,150, 150) 5px, 5px;
+    box-shadow:  rgb(150,150, 150) 5px, 5px;
+
+}
+.main .articles article{
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.116);
+    margin-bottom: 10px;
+
+    -moz-border-radius: 20px/10px ; 
+    -webkit-border-radius:20px/10px ;
+    border-radius:20px/10px ;
+
+    -moz-box-shadow:  rgb(150,150, 150) 5px, 5px;
+    -box-shadow: rgb(150,150, 150) 5px, 5px;
+    box-shadow:  rgb(150,150, 150) 5px, 5px;
+
+}
+
+aside{
+    width: 30%
+    float left;
+    background: rgba(0, 0, 0, 0.966);
+    padding: 5px;
+    box-sizing: border-box;
+
+    -moz-border-radius: 20px/10px ; 
+    -webkit-border-radius:20px/10px ;
+    border-radius:20px/10px ;
+
+    -moz-box-shadow:  rgb(150,150, 150) 5px, 5px;
+    -box-shadow: rgb(150,150, 150) 5px, 5px;
+    box-shadow:  rgb(150,150, 150) 5px, 5px;
+
+}
+
+footer{
+    
+    clear:both;
+    background: rgb(12, 12, 12);
+    color: rgb(100, 99, 107);
+    padding: 5px;
+    text-align: center;
+    
+   -moz-border-radius: 20px/10px ; 
+    -webkit-border-radius:20px/10px ;
+    border-radius:20px/10px ;
+
+    -moz-box-shadow:  rgb(150,150, 150) 5px, 5px;
+    -box-shadow: rgb(150,150, 150) 5px, 5px;
+    box-shadow:  rgb(150,150, 150) 5px, 5px;
+
+}
